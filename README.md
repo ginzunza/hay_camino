@@ -1,5 +1,10 @@
 # ¿hay camino?
-Corrobora si existe, o no, forma de llegar al destino. Se asumen matrices simétricas.
+Corrobora si existe, o no, forma de llegar al destino.
+
+### Condiciones
+* Los obstáculos o caminos recorridos se denotan con -1
+* Los caminos disponibles se denotan con 0
+* Se asumen matrices simétricas
 
 ```ruby
 DIRECCIONES = [[0,1],[0,-1],[1,0],[-1,0]]# guarda las 4 posibilidades de movimientos ↓, ↑, →, ←
