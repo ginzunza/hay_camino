@@ -1,4 +1,4 @@
-# ¿hay camino?
+# ¿Hay posibilidad de llegar al destino?
 Corrobora si existe, o no, forma de llegar al destino.
 
 ### Condiciones
