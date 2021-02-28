@@ -16,7 +16,7 @@ def hay_camino? camino
   until rutas.empty?
     p = rutas[0]
     rutas.shift
-    return "Sí" if p[0] == camino.length - 1 && p[1] == camino.length - 1 
+    return "Sí" if p == [camino.length - 1,camino.length - 1]
     
     DIRECCIONES.each do |d|
       x = p[0] + d[0]
